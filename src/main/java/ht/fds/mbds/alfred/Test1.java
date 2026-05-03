@@ -12,10 +12,10 @@ public class Test1 {
                 .temperature(0.7)
                 .build();
 
-        String reponse1 = model.chat("Bonjour, je m'appelle Alfred.");
+        String reponse1 = model.chat("Comment s'appelle le chat de Pierre ?");
         System.out.println(reponse1);
 
-        String reponse2 = model.chat("Quel est mon nom ?");
-        System.out.println(reponse2);
+      //  String reponse2 = model.chat("Quel est mon nom ?");
+       // System.out.println(reponse2);
     }
 }
