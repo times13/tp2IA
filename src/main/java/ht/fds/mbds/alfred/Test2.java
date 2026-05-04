@@ -15,7 +15,7 @@ public class Test2 {
                 .temperature(0.7)
                 .build();
 
-        UserMessage message = UserMessage.from("Quelle est la capitale du Maroc ?");
+        UserMessage message = UserMessage.from("Je dois partir dans 2 jours à Paris. Est-ce que je dois mettre un parapluie dans mes valises ?");
 
         ChatResponse response = model.chat(message);
 
